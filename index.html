@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>html-recipe-Victoria Sponge Cake</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Montserrat|Lato" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto,Montserrat,Lato" >
   <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -24,16 +24,38 @@
     </figure>
   </div>
   <div>
+    <h3>Conversions</h3>
+    <form action="TEMP" method="POST">
+      <fieldset>
+        <input type="text" name="tablespoons" value="tablespoons"> = <input type="text" name="cups" value="cups">
+      </fieldset>
+    </form>
+  </div>
+  <div>
+    <h3>Rate this Recipe</h3>
+    <form action="TEMP" method="POST">
+      <fieldset>
+        <legend><strong>What skill level is this recipe?</strong></legend>
+        <input type="radio" id="easy" name="easy">
+        <label for="easy">Easy</label>
+        <input type="radio" id="medium" name="medium">
+        <label for="medium">Medium</label>
+        <input type="radio" id="hard" name="hard">
+        <label for="hard">Hard</label>
+      </fieldset>
+    </form>
+  </div>
+  <div>
     <h3>Ingredients</h3>
   </div>
   <div class="board">
-
     <div class="tile">
       <figure>
         <img src="image/sponge-cake.jpg" style="max-width:400px;" alt="Image of Sponge Cake">
         <figcaption> <a href="https://www.flickr.com/photos/akane86/4641507534">Sponge
             Cake</a> © <a href="https://www.flickr.com/photos/akane86/">Liliana Fuchs</a>, <a
             href="https://creativecommons.org/licenses/by-nc-nd/2.0/">CC BY-NC-ND 2.0</a></figcaption>
+      </figure>
     </div>
     <div class="tile">
       <h4>Cake</h4>
@@ -66,6 +88,7 @@
         <figcaption> <a href="https://www.flickr.com/photos/inspirekelly/9827093964">Whipped Cream</a> © <a
             href="https://www.flickr.com/photos/inspirekelly/">Raw Pixel</a>, <a
             href="https://creativecommons.org/licenses/by/2.0/">CC0 1.0 UNIVERSAL</a></figcaption>
+      </figure>  
     </div>
 
 

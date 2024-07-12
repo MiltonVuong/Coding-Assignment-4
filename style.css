@@ -12,7 +12,18 @@ body {
   max-width: 960px;
   margin: auto;
 }
+form {
+  display: inline-block;
+  position: relative;
+}
 
+fieldset {
+  border-color: palevioletred;
+  border-style: solid;
+}
+input {
+  color: palevioletred;
+}
 div {
   /*border: double palevioletred;*/
   background-color: whitesmoke;
@@ -105,3 +116,11 @@ ol {
 hr {
   border: 1px solid pink;
 }
+/*
+.overlap {
+  position: absolute;
+  top: -20px;
+  z-index: 10px;
+  background-color: whitesmoke;
+}
+*/
